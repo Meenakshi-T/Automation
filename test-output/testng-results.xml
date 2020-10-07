@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[userauser123]]>
+    </line>
+    <line>
+      <![CDATA[userb1234]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70" started-at="2020-03-26T15:30:21Z" finished-at="2020-03-26T15:30:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70" started-at="2020-03-26T15:30:21Z" finished-at="2020-03-26T15:30:21Z">
+      <class name="testingautomation.DemoB">
+        <test-method status="PASS" signature="CreateUser(java.lang.Object, java.lang.Object)[pri:0, instance:testingautomation.DemoB@5dfcfece]" name="CreateUser" duration-ms="16" started-at="2020-03-26T15:30:21Z" data-provider="getData" finished-at="2020-03-26T15:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userauser123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="CreateUser(java.lang.Object, java.lang.Object)[pri:0, instance:testingautomation.DemoB@5dfcfece]" name="CreateUser" duration-ms="0" started-at="2020-03-26T15:30:21Z" data-provider="getData" finished-at="2020-03-26T15:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userb1234]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+      </class> <!-- testingautomation.DemoB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
